@@ -28,6 +28,6 @@ jobs:
       name: dev
       url: https://dev.example.com
 
-    needs: [deploy-dev]
+    needs: [deploy-hmg]
     steps:
       - run: echo production
